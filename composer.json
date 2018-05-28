@@ -1,6 +1,6 @@
 {
-  "name": "labcake/system",
-  "description": "Quick and easy to use functions for PHP",
+  "name": "labcake/event",
+  "description": "A simple event handler in PHP",
   "license" : "Apache-2.0",
   "version" : "stable",
   "autoload": {
