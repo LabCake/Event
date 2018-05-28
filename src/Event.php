@@ -1,10 +1,19 @@
 <?php
 
-namespace LabCake;
+/**
+ * A simple event handler in PHP
+ * @author LabCake
+ * @copyright 2018 LabCake
+ * @license http://www.apache.org/licenses/LICENSE-2.0
+ */
 
+namespace LabCake;
 class Event
 {
-    private static $_events;
+    /**
+     * @var array List of all registered events
+     */
+    private static $_events = array();
 
     /**
      * Register an event
