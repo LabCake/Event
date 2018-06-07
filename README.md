@@ -1,14 +1,14 @@
 # File
-Easy to use quick functions for PHP
+Easy event handler for php
 
 Usage example
 ```php
-System::is_cli();
-System::is_https();
-System::is_windows();
-System::is_unix();
+\LabCake\Event::register("test_event", function ($arg1, $arg2) {
+    var_dump($arg1);
+    var_dump($arg2);
+});
 
-System::get_os();
+\LabCake\Event::trigger("test_event", array("Hello", "World"));
 ```
 
 Documentation not yet complete
