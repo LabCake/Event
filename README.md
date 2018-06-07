@@ -1,4 +1,4 @@
-# File
+# Event
 Easy event handler for php
 
 Usage example
