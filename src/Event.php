@@ -16,7 +16,17 @@ class Event
     private static $_events = array();
 
     /**
-     * Register an event
+     * Register an event handler
+     * @param $name
+     * @param $callback
+     */
+    public static function handler($name, $callback)
+    {
+        self::register($name, $callback);
+    }
+
+    /**
+     * Register an event handler
      * @param string $name
      * @param mixed $callback
      */

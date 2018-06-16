@@ -1,5 +1,5 @@
 # Event
-Easy event handler for php
+Easy event handler and emitter for php
 
 Usage example
 ```php
